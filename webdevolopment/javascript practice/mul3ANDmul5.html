@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>7. Write a JavaScript program that iterates integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". For numbers multiples of both three and five print "FizzBuzz". </h2>
+    <p id="demo"></p>
+    <script>
+        let text="";
+        for(let i=0;i<101;i++)
+        {
+            if(i%3==0 && i%5!=0){
+                text+="Fizz"+"<br>";
+
+            }
+            else if(i%5==0 && i%3!=0)
+            {
+                text+="Buzz"+ "<br>";
+            }
+            else if(i%3==0 && i%5==0)
+            {
+                text+="FizzBuzz"+ "<br>"
+            }
+            else{
+                text+=i + "<br>";
+            }
+        }
+        document.getElementById("demo").innerHTML=text;
+    </script>
+</body>
+</html>

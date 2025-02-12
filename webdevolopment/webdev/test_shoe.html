@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            background-image: linear-gradient(#659ebc, #2aaba8, #2aaba8);
+            
+            text-align: center;
+        }
+        .main h2{
+            color: white;
+            padding-top: 10px;
+        }
+        .para{
+            color:white;
+            width: 70%;
+            margin: auto;
+            font-size: 15px;
+            margin-top: 30px;
+            text-align: left;
+            line-height: 19px;
+        }
+        .flex{
+            display:flex;
+            height: 500px;
+            width: 70vw;
+            margin-left: 180px;
+            margin-top: 50px;
+            
+        }
+        .flex_items{
+            margin-right: 20px;
+            background-color: white;
+            width: 300px;
+            border-radius: 20px;
+            position: relative;
+        }
+        .flex_items img{
+            width: 250px;
+            padding: 10px 20px;
+          
+        }
+        .trend{
+            position: absolute;
+            background-color: orange;
+            border-radius: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 6px;
+            font-size: small;
+            top:120px;
+            right: 25px;
+        }
+        .flex_items h4{
+            margin-top: 30px;
+            text-align: left;
+            padding-left: 20px;
+
+        }
+        .flex_items p{
+            padding-left: 20px;
+            text-align: left;
+            font-size: 15px;
+            margin-top: 40px;
+        }
+        #cost1{
+            font-weight: bold;
+            margin-top: 50px;
+        }
+        #cost2{
+            font-weight: bold;
+            margin-top: 70px;
+
+        }
+        #cost3{
+            font-weight: bold;
+            margin-top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h2>The Best running shoes of 2021</h2>
+        <div class="para"><p>Running is the easiest type of exercise routine to begin, at least according to the popular sentiment. As the truism goes, all you need is a pair of shoes and a road to start.</p></div>
+        <div class="flex">
+            <div class="flex_items">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/nike-shoes-1-img.png">
+                <p class="trend">trending</p>
+                <h4>Nike Zoom Rival Fly</h4>
+                <p>The Nike Zoom Rival Fly features a futuristic look with cushioning in the forefoot that gives you a responsive feel.</p>
+                <p id="cost1">$170.00</p>
+            </div>
+            <div class="flex_items">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/nike-shoes-2-img.png">
+                <p class="trend">trending</p>
+                <h4>Nike React Infinity Run</h4>
+                <p>
+                    The Nike React Infinity Run Flyknit is designed to help reduce injury and keep you on the run.
+                    </p>
+                    <p id="cost2">$170.00</p>
+            </div>
+            <div class="flex_items">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/nike-shoes-3-img.png">
+                <p class="trend">trending</p>
+                <h4>Nike React Miler</h4>
+                <p>The Nike React Miler gives you trusted stability for miles with athlete-informed performance.</p>
+                <p id="cost3">$170.00</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

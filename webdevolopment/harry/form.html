@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> html form</h2>
+    <form action="backend.php">
+        <!-- to give a lable we have to place th "id"  -->
+        <label for="name">name:</label>
+        <div>
+            <input type="text" name="my name" id="name">
+        </div>
+        <br>
+        <div>
+            role:<input type="text" name="myrole">
+        </div>
+        <br>
+        <div>
+            date:<input type="date" name="mydate">
+        </div>
+        <br>
+        <div>
+            bonus:<input type="number" name="mybonus">
+        </div>
+        <br>
+        <div>
+            do you eligible for vote?<input type="checkbox" name="my eligibility">
+        </div>
+        <br>
+        <div>
+            enter your gender?male<input type="radio" name="my gender">female<input type="radio" name="my gender">
+        </div>
+        <br>
+        <div>   <!--it is used to divide one box to another-->
+            write about your self:
+            <textarea name="my text area" cols="6" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset now">
+        </div>
+        <h3>by using label</h3>
+        <label for="car">car type:</label>
+        <select name="my car" id="car">      <!-- if you want select defaultly use "selected"-->
+            <option value="ind" selected>indica</option>
+            <option value="swi">swift</option>
+        </select>
+    </form>
+</body>
+</html>

@@ -1,0 +1,240 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.title {
+    display:flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-top: -25px;
+
+}
+.menu {
+    padding:20px;
+    
+}
+.menu a{
+    color: goldenrod;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu:hover{
+    text-decoration-line: underline;
+    text-decoration-color: goldenrod;
+    text-decoration-thickness: 2px;
+}
+.left a{
+   padding:20px;
+    color: goldenrod;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+     position:relative;
+     top:22px;
+    right: 650px;
+    font-size: large;
+    text-decoration-line: none;
+}
+.image1{
+    width:30px;
+    height: 28px;
+    position: relative;
+    top:25px;
+    left:20px;
+    border-radius: 20px;
+}
+#home{
+    
+    background-image: url('https://res.cloudinary.com/dgrrf09e7/image/upload/v1706420242/hotel-taj-looks-beautiful-at-night-v0-_wnOOTLMygSv5E99EcpFkBF8I0Qg3rmduoGQrVYJjSE_fdpikz.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -10px;
+
+}
+.textimgcenter{
+    padding-top: 40px;
+   
+}
+#invite{
+    text-align: center;
+}
+.welcome{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin-bottom: 23px;
+   font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+ 
+}
+.para{
+    color:green;
+    line-height: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+.flexcontainer{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.option{
+    border: 1px solid white;
+    border-radius: 50px;
+  margin: 0px 30px;
+  padding: 8px 20px;
+  color: white;
+ }
+ #singleAC{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#singleAC h3{
+    font-family:'Courier New', Courier, monospace;
+    text-decoration-line: underline;
+}
+.paragraph{
+    color: gray;
+    font-size: medium;
+}
+.flex3{
+    display: flex;
+    list-style-type: none;
+}
+.flex3 li a{
+    margin-right: 50px;
+    color: goldenrod;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+.flex3 li a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: goldenrod;
+    text-decoration-thickness: 3px;
+}
+.simgfloat div{
+    float: right;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
+.clearfix{
+    overflow: auto;
+}
+.simg{
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    
+}
+.cost{
+    font-weight: bold;
+}
+.offer
+{
+    font-size: smaller;
+    color: gray;
+    text-decoration-line: line-through;
+}
+.discount{
+color: green;
+}
+.booknow{
+color: goldenrod;
+border: 1px solid goldenrod;
+border-radius: 5px;
+list-style-type: none;
+font-size: small;
+width:100px;
+padding: 10px 20px;
+margin-top: 34px;
+ margin-left: 20px;
+}
+.booknow:hover{
+background-color: goldenrod;
+color: white;
+}
+/* FORM CSS */
+.form{
+
+padding: 30px 300px;
+}
+.form legend{
+
+color: goldenrod;
+
+}
+
+.form label{
+color: goldenrod;
+}
+.text
+{
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: goldenrod;
+ }
+ .submit{
+    padding: 10px 45px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-color: goldenrod;
+    color: goldenrod;
+    margin-left: 245px;
+    border-radius: 5px;
+ }
+ .submit:hover{
+    color: white;
+    background-color: goldenrod;
+ }
+ .select{
+    padding:3px 10px;
+    background-color: transparent;
+    border-color: #f9c440;
+    border-radius: 3px;
+ }
+ .visit{
+    margin-left: 190px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+ }
+ .heart{
+    width: 10px;
+    height: 10px;
+ }
+ /* details part*/
+ .details{
+   color: white;
+   background-color: black;
+   margin-top: -30px;
+   overflow: auto;
+   margin-right: 10px;
+   height: 200px;
+   padding-left: 20px;
+ }
+ .details img{
+    float: right;
+    width: 150px;
+    height: 150px;
+  
+ }
+.contactus{
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    font-size: large;
+
+}
+.belowcontactus{
+    font-size: small;
+}
+.belowcontactus span{
+    vertical-align: super;
+}

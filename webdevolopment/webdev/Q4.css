@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding :0px;
+}
+.image1{
+    background-image: url('https://res.cloudinary.com/dsvroldwr/image/upload/v1701015987/background2_npadfr.png');
+  background-attachment: scroll;
+   background-size: cover;
+  
+}
+.title {
+border:2px solid black;
+margin-top: 7px;
+border-left: none;
+border-right: none;
+padding :20px 0px 20px 0px;
+}
+.title h2{
+text-align: center;
+color: white;
+}
+.navbar{
+background-color: white;
+margin-top: 10px;
+padding-left: 372px;
+
+
+}
+.item{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 13px;
+   
+   
+} 
+.item a{
+    color: rgb(159, 13, 159);
+}
+.item a:visited{
+    color: rgb(4, 4, 129);
+}
+.image{
+    margin-top: 40px;
+   align-items: center;
+   margin-left: 390px;
+
+ 
+}
+.image img{
+     width: 467px;
+  
+     padding: 2px 4px 6px 2px;
+     border-left: 3px solid gray;
+     border-top: 3px solid gray;
+     border-right:3px solid black;
+     border-bottom: 3px solid black;
+}
+.discription{
+   margin: 50px 20px 0px 20px;
+}
+#heading{
+    color : white;
+
+}
+#para{
+    margin-top: 30px;
+    color:white;
+}
+.quotos{
+   
+    margin: 30px 20px 0px 20px;
+}
+.quotos h3{
+    color:white;
+    padding-bottom: 20px;
+}
+.quotos p{
+    color:white;
+    background-color: rgba(240,193,7,0.6);
+}
+.video{
+    margin-top: 50px;
+  
+}
+.video h4{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+#video1{
+    width: 500px;
+     padding-left: 30%;
+}

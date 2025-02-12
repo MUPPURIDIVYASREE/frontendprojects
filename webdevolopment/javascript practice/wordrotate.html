@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Write a JavaScript program to rotate the string 'w3resource' in the right direction. This is done by periodically removing one letter from the string end and attaching it to the front.</h2>
+    <p id="demo"></p>
+  <script>
+        let a="w3resources";
+        let len=a.length;
+        for(i=0;i<len;i++){
+            let poped=a.pop();
+            a.unshift(poped)
+        }
+        document.getElementById("demo").innerHTML=a;
+    </script>
+</body>
+</html>

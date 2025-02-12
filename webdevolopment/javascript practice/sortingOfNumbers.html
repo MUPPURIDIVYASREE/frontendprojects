@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Sorting of three numbers</h2>
+    <script>
+      let num1=prompt("enetr the number 1");
+      num1=Number.parseInt(num1);
+      let num2=prompt("enetr the number 1");
+      num2=Number.parseInt(num2);
+      let num3=prompt("enetr the number 1");
+      num3=Number.parseInt(num3);
+      if(num1 < num2 && num1 < num3)
+      {
+            if(num2 < num3)
+            {  
+            
+                window.alert("sorting order:" + num1 + "," + num2 + "," + num3);
+            }
+            else{
+                window.alert("sorting order:" + num1 + "," + num3 + "," + num2);
+            }
+      }
+      if(num2 < num1 && num2 < num3)
+      {
+            if(num1 < num3)
+            {
+                window.alert("sorting order:" + num2 + "," + num1+ "," + num3);
+            }
+            else{
+                window.alert("sorting order:" + num2 + "," + num3 + "," + num1);
+            }
+      }
+      if(num3 < num1 && num3 < num2)
+      {
+            if(num1 < num2)
+            {
+                window.alert("sorting order:" + num3 + "," + num1 + "," + num2);
+            }
+            else{
+                window.alert("sorting order:" + num3 + "," + num2 + "," + num1);
+            }
+      }
+    </script>
+</body>
+</html>

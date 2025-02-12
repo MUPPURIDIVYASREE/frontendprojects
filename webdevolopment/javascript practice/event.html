@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 10px 14px;
+            background-color: red;
+            color: white;
+            font-size: large;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>this is my heading</h2>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iusto nihil, officiis velit culpa iure ducimus eius dolor molestiae quidem commodi aliquam exercitationem quaerat, dolore dicta dolores dolorum tempora distinctio sit quod? Unde error suscipit pariatur architecto iusto corrupti modi explicabo neque id, similique assumenda ut quidem, eveniet minima nostrum magnam doloremque. Quos vel officiis facilis magnam est? Ab perferendis eaque asperiores repudiandae cumque veniam ipsum excepturi, architecto beatae quis eveniet! Ratione quasi labore atque esse nisi harum, eius perferendis, quo placeat quod repellat cupiditate minima nihil amet deleniti porro alias ducimus vitae dolorem doloremque eos fugit non saepe eaque. Vitae impedit soluta omnis aliquam, voluptatem voluptates perferendis odit sint quod quam fugiat eius aspernatur ducimus facere, vel dolorum ut! Iure perspiciatis distinctio nemo amet beatae, officia cupiditate pariatur vitae voluptas ex at, voluptatem nesciunt quo similique quisquam doloremque possimus enim. Obcaecati, eum perspiciatis labore nam harum ad unde dicta assumenda sequi nostrum fugit consectetur fuga ex repellendus quae cupiditate ipsum debitis voluptate? Ea, officiis. A sunt illo enim deleniti sed eos accusantium reprehenderit cum mollitia obcaecati quisquam eum veniam molestiae, impedit, consequatur aliquid, ipsa ipsam. Soluta qui sequi error facere ducimus saepe autem ex quo dolorem officiis? Labore culpa asperiores quae maiores rerum non inventore quo mollitia, eligendi, beatae fuga excepturi voluptate illo accusantium suscipit impedit illum iusto! Tempora minima iste culpa dignissimos quidem ratione eaque, facere eum eveniet blanditiis debitis provident modi doloremque quibusdam. A deserunt eveniet assumenda provident reiciendis reprehenderit qui tempora accusantium, aliquam ad exercitationem omnis vero blanditiis fuga at optio distinctio tempore non maiores et saepe cupiditate. Velit delectus quae, non deserunt voluptates neque quos rerum hic, mollitia excepturi, nam deleniti sapiente! Eveniet quisquam architecto perspiciatis ducimus ratione cumque! Laborum in, porro, quos adipisci quas sapiente dolor, praesentium numquam dolore assumenda ad dolores et dolorum.</p>
+    <button type="button" onclick="toggle()">Show/hide</button>
+    <script>
+        
+        function toggle(){
+            let hide=document.getElementById(para);
+            if(para.style.display !="none"){
+                para.style.display="none";
+            }
+            else{
+                para.style.display="block";
+            }
+
+        }
+    </script>
+</body>
+</html>

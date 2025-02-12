@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main_nav{
+    border: 2px solid black;
+    display:flex;
+    justify-content: space-between;
+   background-color: black;
+
+}
+
+.flex1 div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.flex1 div{
+    margin-right: 10px;
+}
+#food_munch,.flex2 div{
+    position: relative;
+    top: 19px;
+}
+#food_munch{
+    font-size: medium;
+}
+#food_munch span{
+    color: red;
+}
+.flex1,.flex2{
+    display:flex;
+    border:2px solid black;
+    padding: 2px;
+    justify-content: space-around;
+   
+
+}
+.flex2 div{
+    margin-right: 10px;
+}
+.flex1,.flex2 div a{
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    text-decoration: none;
+}
+#contact_us{
+    background-color: red;
+    border-radius: 10px;
+}
+.flex2 div a:hover{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.background{
+ background-image: url("https://previews.123rf.com/images/naltik/naltik1708/naltik170800084/83531699-mini-margarita-pizza-italian-food-simple-background-fast-food.jpg");
+ background-repeat: no-repeat;
+height: 100vh;
+ background-image: linear-gradient(black);
+ display: flex;
+ justify-content: center;
+ align-content: center;
+}
+.content{
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+.welcome{
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+#rich{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#search_bar{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+}
+.submit{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 75px;
+    margin-top: 10px;
+}
+#head{
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+#head span{
+    color: yellow;
+}
+.page2{
+    display:flex;
+    height: 500px;
+}
+.para1{
+    max-width: 50%;
+    margin-left: 30px;
+
+}
+.para2{
+    width: 50%;
+}
+.para1 p{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+button{
+    background-color: yellow;
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+}
+.para2 img{
+    margin-left: 30%;  
+    margin-top: 10px;
+    height: 480px;  
+    width: 350px;
+}
+.page3{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+}
+.page3 div{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: 20px 0px;
+
+}
+.page3 div p{
+    font-size: small;
+}
+.image-3{
+    width: 250px;
+    height: 250px;
+}
+.box1{
+    border:2px solid black;
+    text-align: center;
+    box-shadow:  5px 5px 5px 5px #888888;
+
+}
+
+#title p{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:2px solid gray;  
+    width: 150px;
+    text-align: center;
+    padding-top:10px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+#title p span{
+    color: yellow;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+.row1 .card{
+    margin: 30px 2px;
+
+}
+.card img{
+    width: 220px;
+    height: 170px;
+    margin: 10px auto;
+}
+.card img:hover{
+    transform: scale(1.1,1.1);
+
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.checked {
+    color: yellow;
+  }
+.btn{
+    margin-left: 43px;
+}
+.page5{
+    display: flex;
+    height: 70vh;
+}
+.f-1 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+   margin: 50px 30px 50px 30px;
+}
+.f-2 p{
+    font-size: small;
+    text-align-last: center;
+}
+.f-2{
+    display: flex;
+    align-items: center;
+}
+.f-2 h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.f-2 span{
+    color: red;
+}
+#vedio{
+    border: 2px solid red;
+    width: 100px;
+    padding: 8px 5px;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: bold;
+}.page-6{
+    width: 100vw;
+}
+.page-6 .row{
+    margin :0px 20px;
+}
+.page-6 .col-3{
+    height: 265px;
+    width: 365px;
+    margin: 10px 10px;
+}
+.col-3 img{
+    width: 350px;
+    height: 260px;
+    border-radius: 10px;
+}
+.gallary{
+    margin: 10px auto;
+    font-weight: bolder;
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    color: yellow;
+}

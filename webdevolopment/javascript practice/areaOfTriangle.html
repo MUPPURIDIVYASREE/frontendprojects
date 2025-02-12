@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>the area of the triangle with 3 sides</h2>
+    <p id="demo"></p>
+    <script>
+     /*const a=5;
+     const b=6;
+     const c=7;*/
+     let a=prompt("enetr the number");
+     let b=prompt("enetr the number");
+     let c=prompt("enetr the number");
+    a=Number.parseInt(a);
+    b=Number.parseInt(b);
+    c=Number.parseInt(c);
+
+     const s=(a+b+c)/2
+     const area=Math.sqrt(s*((s-a)*(s-b)*(s-c)));
+     document.getElementById("demo").innerHTML= "the area is:"+ area;
+
+    </script>
+</body>
+</html>

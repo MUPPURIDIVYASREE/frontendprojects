@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 > this is th heading</h1>
+    <p id="p1">this is th paragraph</p>
+    <p id="p2">this is th another paragraph</p>
+    <button id="btn">click to hide</button>
+    <button id="btn1">double click to hide</button>
+    <button id="bt2">toggle</button>
+    <label>name:</label>
+    <input type="text">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">  
+    </script>  
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#p1").hide();
+            });
+            $("#btn1").dblclick(function(){
+                $("#p2").hide();
+            });
+           $("#bt2").click(function(){
+                $("h1").toggle();
+            });
+            $("#p2").mouseenter(function(){
+                $(this).css({
+                    "color":"red",
+                    "font-size":"20px"
+                })
+            });
+            $("#p2").mouseleave(function(){
+                $(this).css({
+                    "color":"black",
+                    "font-size":"medium"
+                });
+            });
+           $("input").focus(function(){
+                $(this).css({
+                    "background-color":"yellow",
+                    "border":"2px solid green"
+                });
+           });
+           $("input").blur(function(){
+            $(this).css(
+                "background-color","green"
+            );
+           });
+           $("#p1").on({
+            click:function(){
+                $(this).css("background-color","yellow")
+            },
+            mouseenter:function(){
+                $(this).css({
+                    "background-color":"pink",
+                    "font-size":"large"
+                });
+            },
+            mouseleave:function(){
+                $(this).css({
+                    "background-color":"red",
+                    "font-size":"normal"
+                })
+            }
+           })
+         
+        });
+    </script>
+</body>
+</html>

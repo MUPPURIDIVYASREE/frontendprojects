@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="loadDoc()">load</button>
+    <p id="demo"></p>
+    <script>
+        function loadDoc(){
+        var x=new XMLHttpRequest();
+        x.open("GET","exe.json");
+        x.send();
+       x.onload=function(){
+       /*     var result=x.responseText;
+            result=JSON.parse(result);
+          console.log(result);
+        
+        let str=`<table border=1><tr>`;
+            for(key in result){
+                str=str + `<th>${key}</th>`
+            }
+            str =str + `</tr><tr>`
+                for(key in result){
+                    str= str+`<td>${result[key]}</td>`;
+                }
+            str = str + `</tr></table>`
+            document.getElementById("demo").innerHTML=str;
+        }*/
+        if(x.status ==200){
+            var result=x.responseText;
+            result=JSON.parse(result);
+        
+        let str=`<table border=1><tr>`;
+            for(key in result){
+                str=str + `<th>${key}</th>`;
+            }
+            str =str + `</tr><tr>`
+                for(key in result){
+                    str= str+`<td>${result[key]}</td>`;
+                }
+            str = str + `</tr></table>`
+            document.getElementById("demo").innerHTML=str;
+
+        }
+        else{
+            document.getElementById("demo").innerHTML="error";
+        }
+    }
+    }
+    </script>
+</body>
+</html>

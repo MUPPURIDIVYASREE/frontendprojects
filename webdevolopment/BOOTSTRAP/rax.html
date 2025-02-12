@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            border: 1px solid rgb(202, 195, 195);
+            width: 27%;
+            margin: auto;
+            margin-top: 5%;
+            border-radius: 5px ;
+            margin-bottom: 20px;
+
+        }
+        .content{
+            margin:10px 25px;
+          
+        }
+        #signin{
+            font-size: x-large;
+            margin-bottom: 20px;
+        }
+        label{
+            font-size: small;
+            font-weight: bold;
+        }
+        input{
+            height: 30px;
+            margin-top: 7px;
+            width: 280px
+        }
+        #continue{
+            text-align: center;
+            border:1px solid yellow;
+            margin-top: 20px;
+            padding: 5px 0px 5px 0px;
+            border-radius: 10px;
+            background-color: rgb(255, 187, 0);
+        }
+        #continue:hover{
+            background-color: rgb(247, 198, 65);
+        }
+        #agree{
+            margin-top: 20px;
+            font-size:11px;
+            line-height: 20px;
+           
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(214, 6, 6);
+        }
+        #help{
+            margin-top: 20px;
+            font-size: smaller;
+            margin-bottom: 20px;
+        }
+        #hr{
+            border-top: 1px solid rgb(202, 195, 195);
+            margin-bottom: 20px;
+        }
+       #buying{
+        font-size: small;
+        font-weight: bold;
+        margin-bottom: 10px;
+       }
+       #shop{
+        font-size: smaller;
+       }
+       fieldset{
+        margin: auto;
+        width: 27%;
+        border-top: 1px solid rgb(202, 195, 195);
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+       
+       }
+       legend{
+        color:rgb(146, 146, 146);
+        font-size: 13px;
+        margin: auto;
+       }
+       .account{
+        margin: auto;
+        width: 27%;
+        margin-top: 10px;
+        border: 1px solid rgb(202, 195, 195);
+        padding: 5px 5px;
+        border-radius: 10px;
+        text-align: center;
+       
+       }
+       .account a{
+        color:black;
+        font-size: small;
+        text-decoration: none;
+       }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <p id="signin">Sign in</p>
+            <label for="email"> email or mobile phone number</label><br>
+            <input type="text" id="email" name="email">
+            <p id="continue">continue</p>
+            <p id="agree">By continuing, you agree to Amazon's <a href="#"> Conditions of<br> Use </a>and <a href="#">Privacy Notice.</a> </p>
+            <p id="help"><a href=#><i class="fa-solid fa-angle-right"></i>Need help?</a></p>
+            <p id="hr"></p>
+            <p id="buying"> Buying for work?<br></p>
+            <a href="#" id="shop">Shop on Amazon Business </a>
+        </div>
+
+    </div>
+   <!-- <p id="hr1"></p>
+    <p id="content_on_hr">New to Amazon?</p>-->
+    <fieldset>
+        <legend>&nbsp;New to Amazon?&nbsp;</legend>
+    </fieldset>
+   <p class="account"><a href="#">Create your Amazon Account</a></p>
+</body>
+</html>

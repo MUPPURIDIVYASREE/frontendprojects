@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-image: linear-gradient(to right,#B27600, #0000A7, #0069AA, #040323,#040323, #0069AA,#0000A7,#B27600);
+            height: 70px;
+            font-family: 'Courier New', Courier, monospace;
+            position: sticky;
+          
+
+        }
+        .item1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 40px;
+            color: white;
+            
+        }
+        .item1 img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+           margin-right: 10px;
+            
+        }
+        .item2{
+            margin-top: 20px;
+        }
+        .item2 ul{
+            list-style-type: none;
+            display: flex;
+            
+        }
+        .item2 li{
+            margin: 5px;
+            
+            
+          
+        }
+        .item2 a{
+           text-decoration: none;
+            font-weight: bold;
+            color: white;
+            height: 50px;
+            width: 100px;
+            padding: 5px;
+            margin-right: 20px;
+            text-align: center;
+        }
+        
+        .item2 li:hover{
+            background-color: green;
+        }
+        .main{
+            position:relative;
+            display: inline-block;
+
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            z-index: 1;
+        }
+        .section{
+            display: flex;
+            width: 100%;
+            height: 100vh;
+
+        }
+        .flex1{
+            width: 50%;
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/A_Hindu_temple_Prem_Mandir_Love_temple_sights_culture_India.jpg/1024px-A_Hindu_temple_Prem_Mandir_Love_temple_sights_culture_India.jpg");
+            background-size: cover;
+        }
+        .flex2{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: space-around;
+            background-image: linear-gradient(135deg, #2c3764, #7e67f1, #ab7ed4, #e676c0);
+        }
+        .content{
+            height: 40%;
+            width: 70%;
+            margin-left: 80px;
+            border: 1px solid pink;
+            overflow-y: scroll;
+            margin-top: -30px;
+            color: white;
+            border-radius: 15px;
+            padding-top: 10px;
+            
+        }
+        label{
+            color: orange;
+        }
+        .forms fieldset{
+            width: 70%;
+           margin-left: 60px;
+           padding: 5px;
+           height: 200px;
+           border-radius: 15px;
+           border: 1px solid orange;
+           margin-top: 10px;
+
+        }
+        button{
+            margin-left: 40%;
+            margin-top: 20px;
+            background-color: transparent;
+            border: 1px solid orange;
+            width: 100px;
+            height: 50px;
+            border-radius: 15px;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="item1"> 
+            <img src="https://5.imimg.com/data5/ECOM/Default/2023/7/326996563/MZ/FM/PK/192550986/wall-stylish-creative-vinyl-radium-sticker-shri-k-1689155632199-sku-13702-0-500x500.jpg">
+            <span>Vrindavan</span>
+        </div>
+        <div class="item2">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">Darshan</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" class="main">Online Services
+                <div class="dropdown">
+                    <p>Hundi</p>
+                    <p>seva</p>
+                    <p>prasadam</p>
+                    <p>booking</p>
+                </div>
+                </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="section">
+        <div class="flex1">
+          
+        </div>
+        <div class="flex2">
+            <div class="content">
+                <p>Our intention is to share remembrance of the wonderful play of divinity in the world and in our
+                    very lives as celebrated in the ancient traditions of Braj and Bhagavat Purana, wherein the
+                    Divine Person became, played in and with Their own creation.
+
+                    What happens in Vrindavan at night? The forests and kunjas of this place, are compared to our
+                    own hearts. This makes sense, and is a good meditation to consider God residing in the hearts of
+                    His own creation.
+
+                    The soul, or jeev, is always searching. It is described in Bhagavad Gita that the jeev has been
+                    on such a journey for a very long time. This is described as ‘chaurasi lac yoni’. That the soul
+                    is wandering through 84,000 different types of births and forms of life. To end up searching for
+                    this place, to become a ‘Braj upasak’, one who meditates upon this place and the activities
+                    here, has perfected their birth.
+
+                    The gopis of Braj Dham are considered to be the top yogis in their perfection of always
+                    meditating and serving God with their full being. This perfection is known as ‘sarvatma bhav’,
+                    to see Divinity everywhere.</p>
+            </div>
+            <div class="forms">
+                <form>
+                    <fieldset>
+                        <legend>Details</legend>
+                        <div class="formname">
+                            <label for="name">name:</label>
+                            <input type="text" placeholder="enter user name"><br>
+                            <label for="time">Select time slot</label>
+                            <select id="time">
+                                <option>Select</option>
+                            </select>      <br>   
+                            <label for="name">Enter number of persons:</label>
+                            <input type="text" placeholder="enter number of persons"><br>
+                            <label for="name">enter the phone number:</label>
+                            <input type="text" placeholder="enter phone number"><br>
+                            <button>Book Now</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
