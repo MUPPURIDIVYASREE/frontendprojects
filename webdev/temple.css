@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+   justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    height: 75px;
+    background-image: linear-gradient(to right,#B27600, #0000A7, #0069AA, #040323, #040323, #0069AA,#0000A7,#B27600);
+    font-weight: bold;
+    width: 100vw;
+
+}
+.flex1{
+    display: flex;
+    margin-left: 20px;
+    color: white;
+}
+.flex1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.flex1 p{
+    position:relative;
+    top:20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.flex2 ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.flex2 li{
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 100px;
+   
+}
+li:hover{
+    background-color: greenyellow;
+    font-size: large;
+}
+.flex2 li a{
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+.dropdow{
+    position: relative;
+    display: inline-block;
+}
+.dropdowcontent{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+}
+.image{
+    width: 50%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/A_Hindu_temple_Prem_Mandir_Love_temple_sights_culture_India.jpg/1024px-A_Hindu_temple_Prem_Mandir_Love_temple_sights_culture_India.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.image p{
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+.content{
+    width: 50%;
+    background-image: linear-gradient(to bottom right,#2c3764, #7e67f1, #ab7ed4, #e676c0);
+}
+.para{
+    border: 2.5px solid pink;
+    width: 70%;
+    height: 25%;
+  margin: auto;
+  margin-top: 20px;
+  overflow-y: scroll;
+  border-radius: 30px 15px 0px;
+  padding: 15px;
+  text-align: justify;
+  color: white;   
+}
+.forms{
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 90px;
+    padding-right: 100px;
+}
+.field{
+    padding: 6px;
+    color:  #f0a73a;
+    border-radius: 20px;
+    border-color: #f0a73a;
+    height: 210px;
+}
+.field input{
+    width: 150px;
+    height: 15px;
+    margin-top: 10px;
+}
+select{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+button{
+    text-align: center;
+    margin: auto;
+    width: 130px;
+    height: 50px;
+   border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #f0a73a;
+    margin-top: 10px;
+    margin-left: 36%;
+    font-size: larger;
+    color: #f0a73a;
+
+}
