@@ -1,1 +1,0 @@
-this is the oage i have been used for the ajax implementation
